@@ -36,8 +36,8 @@
       <file leaf-file-name="Unscrambler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Unscrambler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.073529415" vertical-offset="165" max-vertical-offset="1455">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.12254902" vertical-offset="165" max-vertical-offset="1485">
+              <caret line="23" column="145" selection-start-line="23" selection-start-column="145" selection-end-line="23" selection-end-column="145" />
               <folding>
                 <element signature="e#332#340#0" expanded="true" />
               </folding>
@@ -55,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Unscrambler.java" />
         <option value="$PROJECT_DIR$/Main.java" />
+        <option value="$PROJECT_DIR$/Unscrambler.java" />
       </list>
     </option>
   </component>
@@ -379,12 +379,12 @@
       <changelist id="a6ba5c91-d0ce-4fe2-9e2a-81118a799639" name="Default" comment="" />
       <created>1402935186966</created>
       <updated>1402935186966</updated>
-      <workItem from="1402935190334" duration="1598000" />
+      <workItem from="1402935190334" duration="1890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1598000" />
+    <option name="totallyTimeSpent" value="1890000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1727" y="22" width="1680" height="1024" extended-state="6" />
@@ -410,7 +410,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32984293" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -452,8 +452,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Unscrambler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.073529415" vertical-offset="165" max-vertical-offset="1455">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.12254902" vertical-offset="165" max-vertical-offset="1485">
+          <caret line="23" column="145" selection-start-line="23" selection-start-column="145" selection-end-line="23" selection-end-column="145" />
           <folding>
             <element signature="e#332#340#0" expanded="true" />
           </folding>

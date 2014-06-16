@@ -20,6 +20,8 @@ public class Unscrambler {
         intializeDictionary();
     }
 
+
+    //We need to return a list of permutations at the recursive level, but return a master list of approved words as called from the outside user
     public List<String> unscramble(String input){
         words.clear();
         for (int i = 0; i < input.length(); i++) {
