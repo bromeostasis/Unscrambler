@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class Unscrambler {
     private HashSet<String> dictionary = new HashSet<String>();
-    private List<String> words = new ArrayList<String>();
+    private HashSet<String> words = new HashSet<String>();
     private int counter = 0;
 
 
@@ -20,12 +20,14 @@ public class Unscrambler {
 
 
     //We need to return a list of permutations at the recursive level, but return a master list of approved words as called from the outside user
-    public List<String> unscramble(String input){
+    public HashSet<String> unscramble(String input){
+        //Clear class variable every call
         words.clear();
         for (int i = 0; i < input.length(); i++) {
-            List<String> matches = unscrambleWithReturn(input.substring(0, i) + input.substring(i+1, input.length()));
-            for (int j = 0; j < matches.size(); j++) {
-                String potentialWord = input.charAt(i) + matches.get(j);
+            Character prefix = input.charAt(i);
+            List<String> suffixes = unscrambleWithReturn(input.substring(0, i) + input.substring(i+1, input.length()));
+            for (int j = 0; j < suffixes.size(); j++) {
+                String potentialWord = prefix + suffixes.get(j);
                 if(dictionary.contains(potentialWord)){
                     if(!words.contains(potentialWord))
                         words.add(potentialWord);
@@ -37,6 +39,7 @@ public class Unscrambler {
     }
 
     private List<String> unscrambleWithReturn(String input){
+        //If input is a letter, return that letter, base case.
         if(input.length() < 2) {
             List<String> output = new ArrayList<String>();
             output.add(input);
@@ -52,16 +55,15 @@ public class Unscrambler {
             List<String> newSuffixes = new ArrayList<String>();
             for (int i = 0; i < input.length(); i++) {
                 Character prefix = input.charAt(i);
+                //Everything but prefix (char at i)
                 String newInput =input.substring(0, i) + input.substring(i+1, input.length());
                 oldSuffixes = unscrambleWithReturn(newInput);
                 for (int j = 0; j < oldSuffixes.size(); j++) {
                     String potentialWord = prefix + oldSuffixes.get(j);
                     if(dictionary.contains(potentialWord)){
-                        if(!words.contains(potentialWord))
-                            words.add(potentialWord);
+                        words.add(potentialWord);
                     }
                     newSuffixes.add(potentialWord);
-
                 }
             }
             return newSuffixes;
