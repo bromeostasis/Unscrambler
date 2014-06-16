@@ -9,8 +9,6 @@ import java.util.List;
  * Created by esnyder on 6/14/14.
  */
 public class Unscrambler {
-
-//    private List<String> dictionary = new ArrayList<String>();
     private HashSet<String> dictionary = new HashSet<String>();
     private List<String> words = new ArrayList<String>();
     private int counter = 0;

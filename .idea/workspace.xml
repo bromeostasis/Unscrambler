@@ -36,10 +36,10 @@
       <file leaf-file-name="Unscrambler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Unscrambler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12254902" vertical-offset="165" max-vertical-offset="1485">
-              <caret line="23" column="145" selection-start-line="23" selection-start-column="145" selection-end-line="23" selection-end-column="145" />
+            <state vertical-scroll-proportion="0.36764705" vertical-offset="0" max-vertical-offset="1455">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
               <folding>
-                <element signature="e#332#340#0" expanded="true" />
+                <element signature="e#266#274#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -379,12 +379,12 @@
       <changelist id="a6ba5c91-d0ce-4fe2-9e2a-81118a799639" name="Default" comment="" />
       <created>1402935186966</created>
       <updated>1402935186966</updated>
-      <workItem from="1402935190334" duration="1890000" />
+      <workItem from="1402935190334" duration="1931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1890000" />
+    <option name="totallyTimeSpent" value="1931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1727" y="22" width="1680" height="1024" extended-state="6" />
@@ -452,10 +452,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Unscrambler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12254902" vertical-offset="165" max-vertical-offset="1485">
-          <caret line="23" column="145" selection-start-line="23" selection-start-column="145" selection-end-line="23" selection-end-column="145" />
+        <state vertical-scroll-proportion="0.36764705" vertical-offset="0" max-vertical-offset="1455">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding>
-            <element signature="e#332#340#0" expanded="true" />
+            <element signature="e#266#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
